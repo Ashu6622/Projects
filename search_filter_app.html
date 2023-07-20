@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search-filter</title>
+
+</head>
+
+<style>
+    *{
+        padding: 0;margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+
+        /* border:2px solid red ; */
+        min-width: 300px;
+        height: 400px;
+        background-color: rgb(236, 233, 233);
+        border-radius: 10px;
+        box-shadow: 5px 10px 20px 0px rgb(166, 165, 165);
+        overflow-y: scroll ;
+     
+        
+    }
+    .container::-webkit-scrollbar {
+        display: none;
+}
+
+
+    /* form{
+        border: 2px solid blue ;
+       
+        
+    }
+
+    .product-list{
+
+        border: 2px solid green;
+        
+
+        
+    } */
+    img{
+
+        height: 100px;
+        width: 100px;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    #search-bar{
+
+        width: 100%;
+        padding: 10px 2px;
+        font-size: 1rem;
+        text-align: center;
+        border: none;
+        outline: none;
+        /* position: sticky; */
+        top: 0px;
+        font-size: 1.5rem;
+        
+    }
+    .product{
+        display: flex;
+        /* border: 2px solid yellow; */
+        /* justify-content: space-between; */
+        margin-top: 10px;
+       
+
+    }
+    .product-info{
+        /* padding-right: 50px; */
+        padding-left: 15px;
+        padding-top: 15px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    
+
+    <div class="container">
+
+        <form action="">
+
+            <input type="search" placeholder="Search here" id="search-bar" autofocus autocomplete="off">
+        </form>
+
+        <div class="product-list">
+
+            <div class="product">
+                <img src="https://imgprd19.hobbylobby.com/5/ba/61/5ba610f22c7cd6efb4e6c69387d938451a6c40e6/1400Wx1400H-633719-0320.jpg" alt="">
+
+                <div class="product-info">
+                <h3>Red T-Shirt</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/belt_1.jpg" alt="">
+
+                <div class="product-info">
+                <h3>Leather Belt</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/belt_2.webp" alt="">
+
+                <div class="product-info">
+                <h3>Brown Leather Belt </h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/bags_2.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>hand bag for girls</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/blue_pant_1.webp" alt="">
+
+                <div class="product-info">
+                <h3>Blue jean Pant</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/pant_of_six_color_2.jpg" alt="">
+
+                <div class="product-info">
+                <h3>Pack Of Six Pants</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+           
+            <div class="product">
+                <img src="image/hat_1.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>Black hat</h1>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/hat_2.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>girl hat</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/christmas_hat_3.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>Christmas hat</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/shirt_1.jpg" alt="">
+
+                <div class="product-info">
+                <h3>Blue Shirt</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/formal_pant.webp" alt="">
+
+                <div class="product-info">
+                <h3>Formal Pant</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+
+            <div class="product">
+                <img src="image/bags_3.webp" alt="">
+
+                <div class="product-info">
+                <h3>laptop bag</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/perfume_1.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>Lily perfume</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/perfume_2.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>Jons Perfume</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/shoes-1.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>Running Shoes</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/shirt_2.jpg" alt="">
+
+                <div class="product-info">
+                <h3>Two combo T-shirt</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+           
+            <div class="product">
+                <img src="image/shoes_3.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>formal shoes</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product">
+                <img src="image/bags_1.webp" alt="">
+
+                <div class="product-info">
+                <h3>college bag</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            <div class="product" style="padding-bottom: 10px;">
+                <img src="image/shoes_2.jpeg" alt="">
+
+                <div class="product-info">
+                <h3>puma Running Shoes</h3>
+                <h2>$39</h2>
+                </div>    
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+
+        
+
+        let search_bar = document.getElementById('search-bar');
+        let form = document.querySelector('form');
+        let product = document.querySelectorAll('.product');
+        let product_list = document.querySelector('.product-list');
+        // console.log(product);
+        let pdt_name = document.querySelectorAll('h3');
+
+        search_bar.addEventListener('keyup', (e) =>{
+
+            // console.log(e.target.value);
+             for(let i=0;i<pdt_name.length;i++){
+
+            let data = pdt_name[i].textContent
+
+           if(data){
+
+            if(data.toUpperCase().indexOf(search_bar.value.toUpperCase()) > -1){
+
+                product[i].style.display = "";
+                // product[i].style.display = "initial";
+                // product[i].style.display = "block";
+            }
+            else{
+                product[i].style.display = "none";
+            }
+
+           }
+        }
+
+        // if(search_bar.value == ""){
+        //      product_list.style.display = "initial";
+        // }
+        });
+
+       
+
+       
+         
+    
+
+   
+
+        
+    </script>
+</body>
+</html>
