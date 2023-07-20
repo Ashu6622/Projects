@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;400;500&family=Roboto&family=Roboto+Condensed&family=Rubik&family=Tiro+Devanagari+Hindi&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="container">
+
+        <h1 class="title">Guessing Numbers</h1>
+
+        <input type="number" id="guess" placeholder="Enter your guess" autofocus>
+
+        <div class="attempts">
+            <h2> Numbers of attempts</h2>
+            <p>0</p>
+        </div>
+        <div class="history">
+            <h2>Previous Guess Numbers</h2>
+            <p>-</p>
+        </div>
+        <h2 class="limit">You have <span>5</span> attempts left</h2>
+
+        <button id="btn">Play again</button>
+    </div>
+
+    <script src="script.js">    </script>
+</body>
+
+</html>
