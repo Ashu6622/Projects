@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 700,
+        'GRAD' 200,
+        'opsz' 48;
+    font-size: 5rem;
+    color: rgb(155, 154, 154);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+.container {
+    /* border: 1px solid red; */
+    padding: 30px;
+    width: 450px;
+    height: 350px;
+    position: relative;
+    background-color: white;
+    /* box-shadow: 10px 10px 10px 10px lightblue; */
+    
+}
+
+.icon {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+
+}
+
+.quotes {
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    height: 160px;
+}
+
+.author {
+    text-align: end;
+}
+
+span {
+    /* margin-right: 10px; */
+    font-weight: bold;
+}
+
+#btn {
+    width: 450px;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    /* margin-top: -50px; */
+    /* opacity: 10; */
+}
