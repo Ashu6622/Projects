@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #c7ecee;
+  display: grid;
+  place-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.editor .features {
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+  background-color: #f5f7fb;
+  padding: 5px 20px;
+}
+.editor .features ul {
+  display: flex;
+  justify-content: space-between;
+}
+.editor .features ul li {
+  list-style-type: none;
+  padding: 5px;
+  background-color: rgb(230, 230, 230);
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.editor .features ul li:hover {
+  box-shadow: 0px 1px 7px 4px rgb(215, 211, 211);
+}
+.editor .features ul .common {
+  color: blue;
+  background-color: #deeef9;
+}
+.editor .features .upper input {
+  padding: 3px;
+}
+.editor .features .upper input[type=number] {
+  width: 50px;
+}
+.editor textarea {
+  resize: none;
+  padding: 10px;
+  font-size: 1rem;
+  width: 624px;
+  height: 400px;
+  color: black;
+  font-family: monospace;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.textline {
+  text-decoration: underline;
+}
+
+.textbold {
+  font-weight: 900;
+}
+
+.small_big {
+  text-transform: uppercase;
+}
+
+.middle-cut {
+  text-decoration: line-through;
+}
+
+.left {
+  text-align: start;
+}
+
+.right {
+  text-align: end;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+select option {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
