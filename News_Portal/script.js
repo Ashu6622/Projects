@@ -12,7 +12,7 @@ async function show_News(query) {
 
     console.log(query);
  
-  // let response = await fetch(`https://newsapi.org/v2/everything?q=${query}&from=2023-07-06&sortBy=publishedAt&apiKey=${API_key}`);
+  // let response = await fetch(`https://newsapi.org/v2/everything?q=${query}&from=2023-10-07&sortBy=publishedAt&apiKey=${API_key}`);
 
   let response = await fetch(`https://newsapi.org/v2/everything?q=${query}&from=2023-07-12&sortBy=publishedAt&apiKey=5978600201884d949b749b67814e0b6e`)
   let data = await response.json();
